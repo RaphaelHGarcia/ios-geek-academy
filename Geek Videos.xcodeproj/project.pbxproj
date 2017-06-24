@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A3775F71EFE095200E7D13B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3775F61EFE095200E7D13B /* AppDelegate.swift */; };
-		7A3775F91EFE095200E7D13B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3775F81EFE095200E7D13B /* ViewController.swift */; };
+		7A3775F91EFE095200E7D13B /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3775F81EFE095200E7D13B /* InicioViewController.swift */; };
 		7A3775FC1EFE095200E7D13B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3775FA1EFE095200E7D13B /* Main.storyboard */; };
 		7A3775FE1EFE095200E7D13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3775FD1EFE095200E7D13B /* Assets.xcassets */; };
 		7A3776011EFE095200E7D13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3775FF1EFE095200E7D13B /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		7A3775F31EFE095200E7D13B /* Geek Videos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geek Videos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3775F61EFE095200E7D13B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A3775F81EFE095200E7D13B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A3775F81EFE095200E7D13B /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
 		7A3775FB1EFE095200E7D13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A3775FD1EFE095200E7D13B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3776001EFE095200E7D13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,10 +101,12 @@
 		7A3775F51EFE095200E7D13B /* Geek Videos */ = {
 			isa = PBXGroup;
 			children = (
+				7AA5D44C1EFE1F1500AB6038 /* controller */,
+				7AA5D44B1EFE1F0A00AB6038 /* view */,
+				7AA5D44A1EFE1F0000AB6038 /* model */,
 				7A3776241EFE112600E7D13B /* Roboto-Bold.ttf */,
 				7A3776251EFE112600E7D13B /* Roboto-Regular.ttf */,
 				7A3775F61EFE095200E7D13B /* AppDelegate.swift */,
-				7A3775F81EFE095200E7D13B /* ViewController.swift */,
 				7A3775FA1EFE095200E7D13B /* Main.storyboard */,
 				7A3775FD1EFE095200E7D13B /* Assets.xcassets */,
 				7A3775FF1EFE095200E7D13B /* LaunchScreen.storyboard */,
@@ -129,6 +131,28 @@
 				7A3776181EFE095300E7D13B /* Info.plist */,
 			);
 			path = "Geek VideosUITests";
+			sourceTree = "<group>";
+		};
+		7AA5D44A1EFE1F0000AB6038 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		7AA5D44B1EFE1F0A00AB6038 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		7AA5D44C1EFE1F1500AB6038 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A3775F81EFE095200E7D13B /* InicioViewController.swift */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3775F91EFE095200E7D13B /* ViewController.swift in Sources */,
+				7A3775F91EFE095200E7D13B /* InicioViewController.swift in Sources */,
 				7A3775F71EFE095200E7D13B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +539,7 @@
 				7A37761D1EFE095300E7D13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A37761E1EFE095300E7D13B /* Build configuration list for PBXNativeTarget "Geek VideosTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +548,7 @@
 				7A3776201EFE095300E7D13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A3776211EFE095300E7D13B /* Build configuration list for PBXNativeTarget "Geek VideosUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +557,7 @@
 				7A3776231EFE095300E7D13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
