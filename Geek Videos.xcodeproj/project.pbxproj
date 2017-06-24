@@ -14,6 +14,8 @@
 		7A3776011EFE095200E7D13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3775FF1EFE095200E7D13B /* LaunchScreen.storyboard */; };
 		7A37760C1EFE095200E7D13B /* Geek_VideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37760B1EFE095200E7D13B /* Geek_VideosTests.swift */; };
 		7A3776171EFE095300E7D13B /* Geek_VideosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3776161EFE095300E7D13B /* Geek_VideosUITests.swift */; };
+		7A3776261EFE112600E7D13B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A3776241EFE112600E7D13B /* Roboto-Bold.ttf */; };
+		7A3776271EFE112600E7D13B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A3776251EFE112600E7D13B /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7A3776121EFE095300E7D13B /* Geek VideosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geek VideosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3776161EFE095300E7D13B /* Geek_VideosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geek_VideosUITests.swift; sourceTree = "<group>"; };
 		7A3776181EFE095300E7D13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3776241EFE112600E7D13B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		7A3776251EFE112600E7D13B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		7A3775F51EFE095200E7D13B /* Geek Videos */ = {
 			isa = PBXGroup;
 			children = (
+				7A3776241EFE112600E7D13B /* Roboto-Bold.ttf */,
+				7A3776251EFE112600E7D13B /* Roboto-Regular.ttf */,
 				7A3775F61EFE095200E7D13B /* AppDelegate.swift */,
 				7A3775F81EFE095200E7D13B /* ViewController.swift */,
 				7A3775FA1EFE095200E7D13B /* Main.storyboard */,
@@ -234,6 +240,8 @@
 			files = (
 				7A3776011EFE095200E7D13B /* LaunchScreen.storyboard in Resources */,
 				7A3775FE1EFE095200E7D13B /* Assets.xcassets in Resources */,
+				7A3776271EFE112600E7D13B /* Roboto-Regular.ttf in Resources */,
+				7A3776261EFE112600E7D13B /* Roboto-Bold.ttf in Resources */,
 				7A3775FC1EFE095200E7D13B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
